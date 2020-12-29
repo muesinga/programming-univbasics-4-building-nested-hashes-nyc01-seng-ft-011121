@@ -31,9 +31,7 @@ def monopoly_with_third_tier
 
 end
 
-
-def monopoly_with_fourth_tier
-  def monopoly_with_third_tier
+def monopoly_with_third_tier
    railroads =  {
   :railroads=>
   {:pieces=>4, 
