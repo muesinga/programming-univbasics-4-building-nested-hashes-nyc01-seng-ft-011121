@@ -1,6 +1,6 @@
 def base_hash
   railroads =  {
-  :railroads =>
+  :railroads=>
   {}
   }
   # Remember implicit return! We're returning this new Hash _without_ the
@@ -9,8 +9,8 @@ end
 
 def monopoly_with_second_tier
    railroads =  {
-  :railroads =>
-  {:pieces = }
+  :railroads=>
+  {:pieces = "4", :rent_in_dollars}
   }
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
